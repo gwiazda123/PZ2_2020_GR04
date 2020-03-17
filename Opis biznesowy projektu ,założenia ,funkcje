@@ -1,0 +1,49 @@
+Opis biznesowy:    
+
+Nasz produkt kierowany jest
+w stronę serwisantów.Ma
+on za zadanie wspomagać
+ich pracę.Zarówno tych stacjonarnych
+jak i serwisantów pracujących w terenie
+Dzięki naszemu produktowi serwisant
+będzie mógł w prosty i wygodny sposób
+realizować całą resztą swojej pracy
+niezwiązanej z samym serwisowaniem
+czyli wypełnianiem zgłoszeń,
+robieniem dokumentacji itp.
+Kupujący uzyska szybki zwrot
+z inwestycji dzięki wzrostowi
+efektywności pracy i eliminacji
+pomyłek oraz błędów.
+
+Założenia i funkcje:
+
+System będzie składał się z bazy
+danych oraz aplikacji
+dostępnej na 3 platformach(
+desktop,web,mobil)
+Wszystkie platformy będą
+posiadały takie same funkcjonalności
+z małymi różnicami.Wersja desktopowa
+to wersja podstawowa z
+dodatkową funkcją
+pozwalającą na kontrolowanie serwisanta
+pracującego w terenie.Wersja mobilna to wersja
+podstawowa z dodatkową funkcją fotograficznej 
+dokumentacji procesu (wykonania zadania, błędów, uszkodzeń)
+Wersja webowa to wersja podstawowa.
+
+
+Podstawowe funkcje(Funkcje występujące w wersji podstawowej aplikacji):
+
+Diagnostyka problemu w danym zleceniu
+Kosztorys naprawy
+Miejsce na dokumentacje
+serwisowanego sprzętu
+Dostęp do histori zrealizowanych napraw danego urządzenia
+Planowanie czynności serwisowych 
+Przyjmowanie zgłoszeń awarii, usterek, zleceń naprawy
+Spis pracowników i przydzielonych im poszczególnych zadań
+Monitoring czasu realizacji zadań
+Dostęp do wszelkich informacji o kliencie wymaganych dla poprawnego i sprawnego wykonania procesu
+Wszelkie daty kiedy co nastąpiło
