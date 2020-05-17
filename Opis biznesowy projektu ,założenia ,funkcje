@@ -1,53 +1,47 @@
-Jezyki programowania używane w projekcie przez:
-LukaszDuszak: http, css, sql
+Jezyki programowania uzywane w projekcie przez:
+Lukasz Duszak: sql
 
-
-Opis biznesowy:    
+Opis Biznesowy:
 
 Nasz produkt kierowany jest
-w stronę serwisantów.Ma
-on za zadanie wspomagać
-ich pracę.Zarówno tych stacjonarnych
-jak i serwisantów pracujących w terenie
-Dzięki naszemu produktowi serwisant
-będzie mógł w prosty i wygodny sposób
-realizować całą resztą swojej pracy
-niezwiązanej z samym serwisowaniem
-czyli wypełnianiem zgłoszeń,
+w strone serwisantow. 
+Ma on za zadanie wspomagac
+ich prace. Zarowno tych stacjonarnych
+jak i serwisantow pracujacych w terenie.
+Dzieki naszemu produktowi serwisant
+bedzie mogl w prosty i wygodny sposob
+realizowac cala reszta swojej pracy
+niezwiazanej z samym serwisowaniem
+oznacza wypelnienie zgloszenia,
 robieniem dokumentacji itp.
-Kupujący uzyska szybki zwrot
-z inwestycji dzięki wzrostowi
-efektywności pracy i eliminacji
-pomyłek oraz błędów.
+Kupujacy szybki zwrot 
+z inwestycji dzieki wzrostowi
+efektywnosc pracy i eliminacji
+pomylek oraz bledy.
 
-Założenia i funkcje:
+Zalozenia i funkcje:
 
-System będzie składał się z bazy
-danych oraz aplikacji
-dostępnej na 3 platformach(
-desktop,web,mobile)
-Wszystkie platformy będą
-posiadały takie same funkcjonalności
-z małymi różnicami.Wersja desktopowa
-to wersja podstawowa z
-dodatkową funkcją
-pozwalającą na kontrolowanie serwisanta
-pracującego w terenie.Wersja mobilna to wersja
-podstawowa z dodatkową funkcją fotograficznej 
-dokumentacji procesu (wykonania zadania, błędów, uszkodzeń)
-Wersja webowa to wersja podstawowa.
+System bedzie skladal sie z bazy danych,
+oraz aplikacji dostepnej na 3 platformach
+(komputer, siec, urzadzenia mobilne).
+Wszystkie platformy 
 
-
-Podstawowe funkcje(Funkcje występujące w wersji podstawowej aplikacji):
-
-Diagnostyka problemu w danym zleceniu
-Kosztorys naprawy
-Miejsce na dokumentacje
-serwisowanego sprzętu
-Dostęp do histori zrealizowanych napraw danego urządzenia
-Planowanie czynności serwisowych 
-Przyjmowanie zgłoszeń awarii, usterek, zleceń naprawy
-Spis pracowników i przydzielonych im poszczególnych zadań
-Monitoring czasu realizacji zadań
-Dostęp do wszelkich informacji o kliencie wymaganych dla poprawnego i sprawnego wykonania procesu
-Wszelkie daty kiedy co nastąpiło
+	Wersjka desktopowa w wersji podstawowej
+z funkcja pozwalajaca na kontrolowanie serwisanta 
+pracujacego w terenie.
+	Wersja mobilna to wersja podstawowa
+z funkcja fotograficznej dokumentacji procesu
+(wykonania zadan,bledow,polaczen)
+	Wersja webowa to wersja podstawowa.
+	
+Podstawowe funkcje(funkcje wystepujace w wersji glownej aplikacji):
+	baza danych:
+		-kosztorys naprawy
+		-dokumentacja serwisowego sprzetu
+		-historia zrealizowanych naprawionych urzadzenia
+		-planowanie operacji serwisowych
+		-zgloszenia usterek, zlecenia naprawy
+		-lista pracownikow i przydzielone zadania
+		-harmonogram pracy pracownikow
+		-wynagrodzienie pracownikow
+		-informacje o kliencie 
