@@ -1,0 +1,282 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color:#D1D4DF;
+}
+button {
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+}
+
+.logo-container,
+.linki,
+.koszyk {
+	display: flex;
+	
+}
+.napis2
+{
+	margin-left:200px;
+	
+	color:black;
+	padding-bottom:100px;
+	
+	width:90%;
+	height:50%;
+	
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo-container {
+	flex: 1;
+}
+.logo {
+	font-weight: 400;
+	margin: 5px;
+}
+nav {
+	flex: 2;
+}
+.linki {
+	justify-content: space-around;
+	list-style: none;
+	
+}
+.nav-link {
+	color: #5f5f79;
+	font-size: 18px;
+	text-decoration: none;
+}
+.koszyk {
+	flex: 1;
+	justify-content: flex-end;
+}
+
+
+.prezentacja {
+	display: flex;
+	width: 90%;
+	margin: auto;
+	min-height: 80vh;
+	align-items: center;
+}
+.wprowadzenie {
+	flex: 1;
+}
+.wstęp h1 {
+	font-size: 44px;
+	font-weight: 500;
+	background: linear-gradient(to right, #000000, #FFFFFF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+}
+.wstęp p {
+	margin-top: 5px;
+	font-size: 22px;
+	color: #585772;
+}
+.cta {
+	padding: 50px 0px 0px 0px;
+}
+.cta-select {
+	border: 2px solid #c36cbb;
+	background: transparent;
+	color: #c36cbb;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.cta-add {
+	background: #c36cbb;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+	border: none;
+	color: white;
+	margin: 30px 0px 0px 30px;
+}
+
+.zdjęcie {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	height: 60vh;
+}
+.zdjęcie img {
+	height: 100%;
+	filter: drop-shadow(0px 5px 3px black);
+	animation: drop 1.5s ease;
+	transition: all 0.5s ease-in-out;
+	
+}
+.zdjęcie:hover img
+{
+	
+	 transform:scale(1.4);
+	 
+}
+.podgłowek
+{
+text-align:center;	
+	background: linear-gradient(to right, #000000, #FFFFFF);
+}
+
+.big-circle {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: -1;
+	opacity: 0.5;
+	height: 80%;
+}
+.medium-circle {
+	position: absolute;
+	top: 30%;
+	right: 30%;
+	z-index: -1;
+	height: 60%;
+	opacity: 0.4;
+}
+.small-circle {
+	position: absolute;
+	bottom: 0%;
+	left: 20%;
+	z-index: -1;
+}
+
+.zmień {
+	width: 15%;
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	right: 20%;
+}
+.nazwa
+{
+	padding-top:50px;
+	text-align:center;
+	font-size:30px;
+	color:white;
+}
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.prezentacja {
+		flex-direction: column;
+	}
+	.wprowadzenie {
+		margin-top: 5vh;
+		text-align: center;
+	}
+	.wstęp h1 {
+		font-size: 30px;
+	}
+	.wstęp p {
+		font-size: 18px;
+	}
+	.cta {
+		padding: 10px 0px 0px 0px;
+	}
+	.zmień {
+		bottom: 5%;
+		right: 50%;
+		width: 50%;
+		transform: translate(50%, 5%);
+	}
+	.zdjęcie img {
+		height: 80%;
+	}
+	.small-circle,
+	.medium-circle,
+	.big-circle {
+		opacity: 0.2;
+	}
+}
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size:40px
+  padding-top:30px;
+  color:black;
+  margin-top:100px;
+  
+  font-family: 'Poppins', sans-serif;
+  
+}
+.naglowek
+{
+	font-size: 44px;
+	font-weight: 500;
+	background: linear-gradient(to right, #000000, #FFFFFF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align:center;
+	margin-top:50px;
+	
+	
+}
+
+
+.popup .popuptext {
+  visibility: hidden;
+font-size:15px;
+  width: 500px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+
+
